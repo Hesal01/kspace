@@ -2,7 +2,8 @@ name: build-angular
 run-name: ${{ github.actor }} is building angular project
 on:
   push:
-    branches[**]
+    branches:
+      - '**'
 jobs:
   build:
     runs-on: ubuntu-latest
