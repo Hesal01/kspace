@@ -1,3 +1,16 @@
-.Liens{
-    color: red;
-}
+.nav-link {
+    list-style: none;
+    display: flex;
+    gap: 45px;
+    margin-right: 325px;
+
+  }
+  
+  .nav-link a {
+    text-decoration: none;
+    color: white; 
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
