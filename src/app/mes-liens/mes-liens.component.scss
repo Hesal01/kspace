@@ -16,6 +16,11 @@
   display: none;
 }
 
+.nav-link-mobile{
+  display: none;
+}
+
+
 @media screen and (max-width: 768px) {
   .nav-links {
     display: none; 
@@ -41,4 +46,7 @@
     display: block;
   }
 
+  .nav-link-mobile{
+    display: block;
+  }
 }
