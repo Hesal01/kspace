@@ -1,9 +1,38 @@
 .logo {
-    font-size: 30px;
+    font-size: 2rem;
     font-weight: bold;
     color: white;
     text-transform: uppercase;
-    letter-spacing: 3px;
-    font-family: Arial, sans-serif;
-    margin-left: 280px;
+    letter-spacing: 1px;
+    margin-left: 10%;
+  }
+  // Media Query pour les petits écrans (ex. mobiles)
+  @media screen and (max-width: 768px) {
+    .logo {
+        font-size: 5vw;  // Réduire la taille du logo sur mobile
+        margin-left: 5%;  // Ajuster la marge pour centrer le logo sur mobile
+      }
+  }
+
+  .hamburger {
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 30px;
+    height: 25px;
+    cursor: pointer;
+  }
+
+  .hamburger span {
+    width: 30px;
+    height: 4px;
+    background-color: white;
+    border-radius: 5px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .hamburger {
+      display: flex; // Afficher le hamburger icon sur les petits écrans
+    }
 }

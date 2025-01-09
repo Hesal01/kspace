@@ -1,6 +1,6 @@
 .navbar {
-    background-color: rgba(102, 98, 98, 0.5); 
-    padding: 15px 30px;
+    background-color: #2C2C2C;
+    padding: 2% 5%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -8,8 +8,16 @@
     top: 0;
     left: 0;
     width: 100%;
-    backdrop-filter: blur(10px); 
-    z-index: 1000; 
+    backdrop-filter: blur(10px);
+    z-index: 1000;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  // Media Query pour les petits écrans (ex. mobiles)
+  @media screen and (max-width: 768px) {
+    .navbar {
+        padding: 5% 10%;  // Augmenter le padding pour les écrans plus petits
+      }
     
-}
+  }
