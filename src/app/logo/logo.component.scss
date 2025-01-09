@@ -6,11 +6,11 @@
     letter-spacing: 1px;
     margin-left: 10%;
   }
-  // Media Query pour les petits écrans (ex. mobiles)
+ 
   @media screen and (max-width: 768px) {
     .logo {
-        font-size: 5vw;  // Réduire la taille du logo sur mobile
-        margin-left: 5%;  // Ajuster la marge pour centrer le logo sur mobile
+        font-size: 5vw; 
+        margin-left: 5%;  
       }
   }
 
@@ -33,6 +33,6 @@
 
   @media screen and (max-width: 768px) {
     .hamburger {
-      display: flex; // Afficher le hamburger icon sur les petits écrans
+      display: flex; 
     }
 }
