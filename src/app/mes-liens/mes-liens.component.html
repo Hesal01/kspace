@@ -1,0 +1,19 @@
+<div class="nav-link">
+    <div><a href="#">Home</a></div>
+    <div><a href="#">About</a></div>
+    <div><a href="#">Services</a></div>
+    <div><a href="#">Contact</a></div>
+</div>
+
+<svg class="hamburger-menu" (click)= "openMenu()" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M3 6h18v2H3V6z" fill="black"/>
+  <path d="M3 11h18v2H3v-2z" fill="black"/>
+  <path d="M3 16h18v2H3v-2z" fill="black"/>
+</svg>
+
+<div class="nav-link-mobile" *ngIf="isclicked">
+  <div><a class="nav-link-mobile__item" href="#">Home</a></div>
+  <div><a class="nav-link-mobile__item" href="#">About</a></div>
+  <div><a class="nav-link-mobile__item" href="#">Services</a></div>
+  <div><a class="nav-link-mobile__item" href="#">Contact</a></div>
+</div>

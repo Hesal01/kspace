@@ -1,0 +1,38 @@
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-left: 10%;
+  }
+ 
+  @media screen and (max-width: 768px) {
+    .logo {
+        font-size: 5vw; 
+        margin-left: 5%;  
+      }
+  }
+
+  .hamburger {
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 30px;
+    height: 25px;
+    cursor: pointer;
+  }
+
+  .hamburger span {
+    width: 30px;
+    height: 4px;
+    background-color: white;
+    border-radius: 5px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .hamburger {
+      display: flex; 
+    }
+}
