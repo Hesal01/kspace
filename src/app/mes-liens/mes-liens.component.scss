@@ -4,8 +4,8 @@
 }
 
 .nav-link a {
-  text-decoration: none; 
-  color: white; 
+  text-decoration: none;
+  color: white;
   font-size: 1.2rem;
   text-transform: uppercase;
   font-weight: bold;
@@ -14,7 +14,7 @@
 
 
 .nav-link a:visited {
-  color: white; 
+  color: white;
 }
 
 
@@ -34,9 +34,9 @@
 
 @media screen and (max-width: 768px) {
   .nav-link {
-    display: none; 
+    display: none;
     position: absolute;
-    top: 60px;  
+    top: 60px;
     left: 0;
     width: 100%;
     background-color: #2C2C2C;
@@ -67,4 +67,9 @@
     display: block;
     text-decoration: none;
   }
+}
+
+.nav-link-mobile__item{
+  text-decoration: none;
+  color: white;
 }
