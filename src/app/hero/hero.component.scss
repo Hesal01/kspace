@@ -41,3 +41,31 @@ i{
 
   background-color: rgba(232, 53, 53, 0.5);
 }
+
+.copy{
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: flex-start; 
+  height: 100vh; 
+  text-align: left; 
+  padding-left: 5%; 
+}
+
+.copy-title{
+  font-size: 2rem; 
+  font-family: serif;
+}
+
+.copy-description{
+  font-size: 15px;
+}
+
+.copy-link{
+  font-size: 13px;
+  
+}
+
+.fa-solid fa-play{
+  height: 5%;
+}
