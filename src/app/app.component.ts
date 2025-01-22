@@ -1,8 +1,5 @@
 import { Component } from '@angular/core';
 import { NavbarComponent } from './navbar/navbar.component';
-import { CallService } from './call.service';
-
-
 
 @Component({
   selector: 'app-root',
@@ -12,10 +9,9 @@ import { CallService } from './call.service';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  constructor(private callService: CallService) {}
+  constructor() {}
 
   makeCall(): void {
-    const phoneNumber = '1234567890'; 
-    this.callService.callNumber(phoneNumber);
+    const phoneNumber = '1234567890';
   }
 }
