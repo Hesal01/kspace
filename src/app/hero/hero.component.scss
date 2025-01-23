@@ -33,6 +33,12 @@ i{
   font-size: 54px;
 }
 
+.copy-link{
+  i{
+    font-size: 12px;
+  }
+}
+
 .inner-circle{
   width: 155px;
   height: 155px;
@@ -44,17 +50,17 @@ i{
 
 .copy{
   display: flex;
-  flex-direction: column; 
-  justify-content: center; 
-  align-items: flex-start; 
-  height: 100vh; 
-  text-align: left; 
-  padding-left: 5%; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  text-align: left;
+  padding-left: 5%;
+  font-family: Roboto, Serif;
 }
 
 .copy-title{
-  font-size: 2rem; 
-  font-family: serif;
+  font-size: 2rem;
 }
 
 .copy-description{
@@ -63,7 +69,7 @@ i{
 
 .copy-link{
   font-size: 13px;
-  
+
 }
 
 .fa-solid fa-play{
