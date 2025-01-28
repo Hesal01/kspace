@@ -1,0 +1,26 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;  /* Two equal columns */
+  width: 100%;                     /* Full width */
+}
+
+.column {
+  padding: 20px;
+}
+
+.left-column {
+  background-color: white;
+}
+
+.right-column {
+  background-color: white;
+}
+
+h2{
+  font-family: Roboto, Serif;
+
+}
+
+.grid-container{
+  font-family: Roboto, Serif;
+}
